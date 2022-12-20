@@ -1,9 +1,8 @@
 <template>
-  <div class="">
-    <div class="line-1 code anim-typewriter">
-      Hello... welcome to the portfolio website of Richard Manley...
+  <div class="welcome">
+    <div class="line-1 code-effect anim-typewriter">
+      Hello... welcome to richardmanley.com
     </div>
-    <div><a href="https://www.linkedin.com/in/richard-manley-68402427" target="_blank">Upwork profile</a></div>
   </div>
 </template>
 
@@ -14,10 +13,10 @@ export default {
 </script>
 
 <style lang="css">
-.code {
-  background: black;
-  color: white;
-  padding: 20px;
+.welcome {
+  @apply w-full relative;
+}
+.code-effect {
   font-size: 16px;
   font-family:'DM sans', Courier, monospace;
 }
@@ -26,7 +25,7 @@ export default {
     position: relative;
     top: 50%;  
     /* width: 24em; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border-right: 2px solid rgba(255,255,255,.75);
     text-align: left;
     white-space: nowrap;

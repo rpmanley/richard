@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Richard Manley portfolio website',
+    title: 'Richard Manley, web developer, portfolio',
     htmlAttrs: {
       lang: 'en'
     },
